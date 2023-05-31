@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+* {
+  background-color: #2fce56;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2fce56;
+  font-family: "Open Sans", sans-serif;
+  background: #010407;
+  color: #21054e;
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+
+.bgg{
+  background-color: #010407;
+}
+.section-center {
+  background-color: #01080f;
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 35rem;
+  margin-top: 8rem;
+  background: #2fce56;
+  border-radius: 0.5rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s linear;
+  padding: 2rem;
+}
+.section-center:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.bg {
+  background-color: #010407;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.grocery-form h3 {
+  color: #063251;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  letter-spacing: 0.25rem;
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.25rem;
+}
+
+.form-control {
+  display: flex;
+  justify-content: center;
+}
+
+#grocery {
+  padding: 0.25rem;
+  padding-left: 1rem;
+  background: #0d5b97;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  border-color: transparent;
+  font-size: 1rem;
+  flex: 1 0 auto;
+  color: #617d98;
+}
+#grocery::placeholder {
+  font-family: "Open Sans", sans-serif;
+  color: #01080f;
+}
+.submit-btn {
+  background: #07090a;
+  border-color: transparent;
+  display: grid;
+  align-items: center;
+  padding: 0.25rem 0.5rem;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  cursor: pointer;
+  content: #49a6e9;
+  transition: all 0.3s linear;
+  font-size: 0.85rem;
+}
+.submit-btn:hover {
+  background: #49a6e9;
+  color: #fff;
+}
+
+.grocery-container {
+  margin-top: 2rem;
+  transition: all 0.3s linear;
+}
+
+.grocery-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  transition: all 0.3s linear;
+  padding: 0.25rem 1rem;
+  border-radius: 0.5rem;
+  text-transform: capitalize;
+}
+.grocery-item:hover {
+  color: #617d98;
+  background: #f1f5f8;
+}
+.grocery-item:hover .title {
+  color: #617d98;
+}
+.title {
+  margin-bottom: 0;
+  color: #102a42;
+  letter-spacing: 2px;
+  transition: all 0.3s linear;
+  color: #617d98;
+}
+.edit-btn,
+.delete-btn {
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  font-size: 0.7rem;
+  margin: 0 0.15rem;
+  transition: all 0.3s linear;
+}
+.edit-btn {
+  color: #6be675;
+}
+.edit-btn:hover {
+  color: #25bb32;
+}
+.delete-btn {
+  color: #e66b6b;
+}
+.delete-btn:hover {
+  color: #961515;
+}
+.clear-btn {
+  text-transform: capitalize;
+  width: 100rem;
+  height: 15rem;
+  display: grid;
+  align-items: center;
+  background: transparent;
+  border-color: transparent;
+  color: #ebdcdc;
+  margin: 100000 auto;
+  font-size: 0.85rem;
+  letter-spacing: 0.25rem;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  margin-top: 1.25rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+.clear-btn:hover {
+  color: #bb2525;
+}
+
+@media screen and (min-width: 800px) {
+  h3 {
+    font-size: 1.75rem;
+  }
+  body {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .section-center {
+    width: 95vw;
+  }
+}

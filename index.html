@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo-List</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <center>
+  <body class = "bgg">
+    <div class="bg">
+    <section class="section-center">
+      <!-- form -->
+      <form class="grocery-form">
+        <h1>ToDo-List</h1>
+        <div class="form-control">
+          <input type="text" id="grocery" placeholder="e.g. Code and Debug">
+          <button type="submit" class="submit-btn"> Add Task </button>
+        </div>
+      </form>
+    </center>
+
+      <!-- list -->
+      <div class="grocery-container">
+        <div class="grocery-list">
+          <!-- Single Item -->
+          <ol>
+          <article class="grocery-item">
+            <li>Task 1: 
+            </li>
+            <br>
+            <div class="btn-container">
+              <button type="button" class="edit-btn">
+                <i class="fas fa-edit"></i>
+              </button>
+              <button type="button" class="delete-btn">
+                <i class="fas fa-trash"></i>
+              </button>
+            </article>
+            <br>
+          
+
+            <!-- Single Item -->
+
+          <article class="grocery-item">
+            
+            <li> Task 2: 
+              <TextField id="standard-basic" label="Standard" variant="standard" />
+            </li>
+
+            </p>
+            
+            <div class="btn-container">
+              <button type="button" class="edit-btn">
+                <i class="fas fa-edit"></i>
+              </button>
+              <button type="button" class="delete-btn"> 
+                <i class="fas fa-trash"></i>
+              </button>
+            </article>
+            </div>
+            <!-- button  -->
+        <br>
+            <center><button type="button" class="clear-btn"> Clear Tasks </button></center>
+          </ol>
+        </div>
+      </div>
+    </div>
+    </section>
+  </body>
+</html>
